@@ -1,0 +1,58 @@
+{
+  "_version": "3.0",
+  "payload": {
+    "visualizations": {
+      "LuigiNavConfig": {
+        "vizType": "sap.luigi.node",
+        "vizConfig": {
+          "viewGroup": {
+            "preloadSuffix": "/#/preload",
+            "requiredIFramePermissions": {
+              "allow": ["clipboard-read", "clipboard-write"]
+            }
+          },
+          "nodes": [
+            {
+              "pathSegment" : "leidy-angular-dxp",
+              "label" : "leidy-angular-dxp",
+              "urlSuffix" : "/{i18n.currentLocale}/#/leidy-angular-dxp",
+              "hideSideNav": true,
+              "icon": "lab",
+              "entityType": "global"
+            }
+          ]
+        }
+      }
+    },
+    "targetAppConfig": {
+      "_version": "1.13.0",
+      "sap.integration": {
+        "navMode": "inplace",
+        "urlTemplateId": "urltemplate.url",
+        "urlTemplateParams": {
+          "query": {}
+        }
+      }
+    }
+  },
+  "texts": [
+    {
+      "locale": "",
+      "textDictionary": {
+        "leidy-angular-dxp": "leidy-angular-dxp"
+      }
+    },
+    {
+      "locale": "en",
+      "textDictionary": {
+        "leidy-angular-dxp": "leidy-angular-dxp"
+      }
+    },
+    {
+      "locale": "de",
+      "textDictionary": {
+        "leidy-angular-dxp": "leidy-angular-dxp"
+      }
+    }
+  ]
+}

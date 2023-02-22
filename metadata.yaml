@@ -1,0 +1,15 @@
+kind: Component
+metadata:
+  displayName: 'leidy-angular-dxp'
+  description: ''
+spec:
+  type:
+    name: ui
+    categories:
+      - dxp
+      - angular
+      - luigi
+  team:
+    name: ''
+    productOwner: ''
+    technicalOwner: ''
